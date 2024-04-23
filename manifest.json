@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Search Context Menu",
+  "version": "1.0",
+  "description": "Adds a context menu to search selected text on YouTube.",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "64": "ytsearch.png"
+  }
+}
